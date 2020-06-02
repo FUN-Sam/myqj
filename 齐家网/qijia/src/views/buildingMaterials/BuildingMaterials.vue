@@ -9,5 +9,5 @@
 </script>
 
 <style scoped>
-	
+	@import url("../../assets/css/buildingMaterials.css");
 </style>
