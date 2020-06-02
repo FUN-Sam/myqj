@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>找装修</h1>
+    <h1>找建筑</h1>
   </div>
 </template>
 
