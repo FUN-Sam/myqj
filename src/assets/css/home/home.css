@@ -1,0 +1,23 @@
+.mynavs {
+  display: flex;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+  width: 100%;
+  background: #fff;
+}
+.mynavs div {
+  width: 30%;
+  margin: 0.1rem;
+}
+.mynavs div a {
+  color: rgba(213, 106, 110);
+  text-decoration: none;
+  display: inline-block;
+  width: 37px;
+  color: #000;
+}
+.mynavs .active {
+  border-bottom: 1px solid #b70006;
+}

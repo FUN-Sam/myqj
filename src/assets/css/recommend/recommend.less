@@ -1,0 +1,281 @@
+ a {
+     text-decoration: none;
+     color: rgba(213, 213, 213);
+ }
+
+ /* 导航区域 */
+ .ul-nav {
+     padding-top: 40/100rem;
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     text-align: center;
+     align-items: center;
+     background: #fff;
+
+     li {
+         width: 20%;
+         margin-bottom: 30/100rem;
+         position: relative;
+
+         img {
+             width: 95/100rem;
+
+         }
+
+         span {
+             font-size: 12px;
+         }
+
+         .smalltitle {
+             position: absolute;
+             right: 0px;
+             top: 2px;
+             background: rgba(255, 94, 94);
+             color: #fff;
+             border-radius: 10px;
+             width: 31px;
+             box-shadow: 2px 2px 2px #fff;
+         }
+     }
+
+     li:nth-of-type(5) {
+         .smalltitle {
+             background: rgba(154, 123, 255)
+         }
+     }
+ }
+
+ /* 大图区域 */
+ .nav-img {
+     background: #fff;
+     margin-top: 30/100rem;
+     padding: 20/100rem;
+     position: relative;
+ }
+
+ .banner {
+     width: 100%;
+ }
+
+ .linghang {
+     position: absolute;
+     top: 49/100rem;
+     left: 47/100rem;
+     color: #fff;
+     font-size: 12px;
+
+     img {
+         width: 30/100rem;
+         margin-right: 10/100rem;
+     }
+ }
+
+ .design {
+     position: absolute;
+     top: 80/100rem;
+     left: 47/100rem;
+     color: #fff;
+ }
+
+ /* 深圳找装修区域 */
+ .search-renovate {
+     padding: 10/100rem;
+     background: #fff;
+     margin-top: 30/100rem;
+
+     .search-renovate-h {
+         display: flex;
+         position: relative;
+
+
+         .more {
+             font-size: 12px;
+             color: rgba(194, 194, 194);
+             text-decoration: none;
+             position: absolute;
+             right: 10/100rem;
+             top: 10/100rem;
+         }
+
+         .search-renovate-t {
+             h3 {
+                 color: rgba(245, 142, 20);
+             }
+         }
+
+         .search-renovate-m {
+             span {
+                 font-size: 12px;
+                 color: rgba(194, 194, 194);
+                 margin: 20/100rem;
+                 display: inline-block;
+                 margin-top: 10/100rem;
+
+                 a {
+                     margin-right: 10/100rem;
+                 }
+             }
+         }
+
+
+     }
+
+ }
+
+ .renovatelist {
+     /* width:100%; */
+     display: flex;
+     overflow-x: scroll;
+
+     li {
+         border: 1px solid rgba(236, 236, 236);
+         padding: 10/100rem;
+         margin-right: 10/100rem;
+         text-align: center;
+
+         img {
+             width: 150/100rem;
+             border: 1px solid rgba(236, 236, 236);
+             border-radius: 50%;
+         }
+
+         .renovate-title {
+             width: 220/100rem;
+             font-size: 12px;
+             font-weight: bold;
+             white-space:nowrap;
+             overflow:hidden;
+             text-overflow: ellipsis;
+         }
+
+         .service {
+             color: rgba(254, 62, 45);
+             border: 1px solid rgba(254, 62, 45);
+             border-radius: 20px;
+             padding: 5/100rem 20/100rem;
+             font-size: 12px;
+             margin: 20/100rem 0;
+             display: inline-block;
+         }
+     }
+ }
+
+ .coupon {
+     text-align: left;
+
+     p {
+         padding: 20/100rem 0;
+     }
+
+     ul {
+         display: flex;
+
+         li {
+             margin-right: 20/100rem;
+             margin-left: 10/100rem;
+             display: flex;
+         }
+
+         li:first-of-type {
+             background: rgba(247, 243, 232);
+             color: rgba(217, 183, 124);
+         }
+
+         li:nth-of-type(2) {
+             background: rgba(243, 225, 216);
+         }
+
+         .aboutprice {
+             font-size: 30px;
+             font-weight: bold;
+         }
+
+         .use {
+             font-size: 12px;
+         }
+
+         .coupon-right {
+             width: 20px;
+             font-size: 12px;
+             background: rgba(245, 236, 211);
+             padding: 8px;
+         }
+
+         .coupon-bottom {
+             color: rgba(153, 153, 153);
+             font-size: 12px;
+         }
+     }
+
+ }
+
+ .goodservice {
+     p {
+         text-align: left;
+         padding: 20/100rem 0;
+     }
+
+     ul {
+         display: flex;
+         overflow-x: scroll;
+
+         li {
+             position: relative;
+             width: 400/100rem;
+             margin-right: 20/100rem;
+
+             img {
+                 width: 350/100rem;
+             }
+
+             h4 {
+                 color: rgba(108, 160, 224);
+                 position: absolute;
+                 top: 33%;
+                 left: 50%;
+                 transform: translate(-50%, -33%);
+                 width: 200/100rem;
+             }
+
+             .service-design {
+                 font-size: 12px;
+                 position: absolute;
+                 bottom: 15px;
+                 left: 10px;
+             }
+         }
+     }
+ }
+
+ //  深圳买建材区域 
+ .renovate-material{
+     display:flex;
+     flex-wrap:wrap;
+     li{
+         width:130/100rem;
+         border-radius:20/100rem;
+         font-size:12px;
+         padding:5/100rem;
+         background: rgba(245, 245, 245);
+         margin-right: 10/100rem;
+         margin-bottom:20/100rem;
+     }
+     .liactive{
+         color:rgba(238, 64, 64);
+         border:1px solid rgba(248, 182, 176);
+     }
+ }
+ .buymaterial{
+     li{
+         img{
+             border-radius:0;
+         }
+         .num{
+             font-size:12px;
+             color:rgba(202, 202, 202);
+
+         }
+     }
+ }
+//  精选品牌区域

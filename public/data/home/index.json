@@ -169,7 +169,7 @@
 			{
 				"url": "http://mued3.jia.com/image/mobile/m_sygb/first_page/service_bg_2.png",
 				"p1": "找设计师",
-				"hot":"热门",
+				"hot": "热门",
 				"p2": "高品质设计 一对一定制服务"
 			},
 			{
@@ -188,7 +188,7 @@
 				"p2": "10秒即得 报价准确 明细清晰"
 			}
 		],
-		"sz_buy_buildingMaterials_nav": [
+		"renovatematerial": [
 			"橱柜",
 			"居家服务",
 			"瓷砖",
@@ -208,30 +208,148 @@
 			"全屋定制",
 			"开关照明"
 		],
-		"sz_buy_buildingMaterials_list": [
+		"buymateriallist": [
 			{
-				"img_url": "https://imgwangpu.tg.com.cn/WANGPU/2018/11/27/1504/KlUvIxOKJwa0pQErr76OEvjQXhX5.jpg?imageView2/0/w/190/h/190",
-				"title": "金牌厨柜店深圳（八卦岭店）"
+				"url": "https://imgwangpu.tg.com.cn/WANGPU/2018/11/27/1504/KlUvIxOKJwa0pQErr76OEvjQXhX5.jpg?imageView2/0/w/190/h/190",
+				"title": "金牌厨柜店深圳（八卦岭店）",
+				"num": 3,
+				"service": "享优惠"
 			},
 			{
-				"img_url": "https://imgwangpu.tg.com.cn/WANGPU/2018/08/31/1537/yL2OTdiu8BnurK85Gm2xZYGv2eyb.jpg?imageView2/0/w/190/h/190",
-				"title": "深圳市司米橱柜(深圳市南山区博耐店)"
+				"url": "https://imgwangpu.tg.com.cn/WANGPU/2018/08/31/1537/yL2OTdiu8BnurK85Gm2xZYGv2eyb.jpg?imageView2/0/w/190/h/190",
+				"title": "深圳市司米橱柜(深圳市南山区博耐店)",
+				"num": 1,
+				"service": "享优惠"
 			},
 			{
-				"img_url": "https://imgwangpu.tg.com.cn/WANGPU/2018/09/10/1726/JxkbNQAHCQjWfmKw1DKHtj6pNLZb.jpg?imageView2/0/w/190/h/190",
-				"title": "深圳好莱客定制家居(龙华观澜居众学院店)"
+				"url": "https://imgwangpu.tg.com.cn/WANGPU/2018/09/10/1726/JxkbNQAHCQjWfmKw1DKHtj6pNLZb.jpg?imageView2/0/w/190/h/190",
+				"title": "深圳好莱客定制家居(龙华观澜居众学院店)",
+				"num": 1,
+				"service": "享优惠"
 			},
 			{
-				"img_url": "https://imgwangpu.tg.com.cn/WANGPU/2018/11/27/1504/KlUvIxOKJwa0pQErr76OEvjQXhX5.jpg?imageView2/0/w/190/h/190",
-				"title": "金牌厨柜店深圳（欧洲城店）"
+				"url": "https://imgwangpu.tg.com.cn/WANGPU/2018/11/27/1504/KlUvIxOKJwa0pQErr76OEvjQXhX5.jpg?imageView2/0/w/190/h/190",
+				"title": "金牌厨柜店深圳（欧洲城店）",
+				"num": 1,
+				"service": "享优惠"
 			},
 			{
-				"img_url": "https://imgwangpu.tg.com.cn/WANGPU/2018/08/31/1537/yL2OTdiu8BnurK85Gm2xZYGv2eyb.jpg?imageView2/0/w/190/h/190",
-				"title": "深圳市司米橱柜(深圳市龙岗区国安居)"
+				"url": "https://imgwangpu.tg.com.cn/WANGPU/2018/08/31/1537/yL2OTdiu8BnurK85Gm2xZYGv2eyb.jpg?imageView2/0/w/190/h/190",
+				"title": "深圳市司米橱柜(深圳市龙岗区国安居)",
+				"num": 1,
+				"service": "享优惠"
 			},
 			{
-				"img_url": "https://imgwangpu.tg.com.cn/WANGPU/2018/09/10/1726/JxkbNQAHCQjWfmKw1DKHtj6pNLZb.jpg?imageView2/0/w/190/h/190",
-				"title": "深圳市司米橱柜(深圳市世纪中心红星)"
+				"url": "https://imgwangpu.tg.com.cn/WANGPU/2018/09/10/1726/JxkbNQAHCQjWfmKw1DKHtj6pNLZb.jpg?imageView2/0/w/190/h/190",
+				"title": "深圳市司米橱柜(深圳市世纪中心红星)",
+				"num": 1,
+				"service": "享优惠"
+			},
+			{
+				"url": "https://imgwangpu.tg.com.cn/WANGPU/2018/08/31/1537/yL2OTdiu8BnurK85Gm2xZYGv2eyb.jpg?imageView2/0/w/190/h/190",
+				"title": "深圳市司米橱柜(深圳市龙岗区国安居)",
+				"num": 1,
+				"service": "享优惠"
+			}
+		],
+		"houseservice": [
+			{
+				"url": "http://imgwangpu.tg.com.cn/WANGPU/2018/09/12/0933/hkjtrHiIjiTUyRglYsjW6xPFcOSQ.jpg?imageView2/0/w/190/h/190",
+				"title": "深圳市宝安区绿健能除甲醛服务中心",
+				"num": 3,
+				"service": "享优惠"
+			},
+			{
+				"url": "http://imgwangpu.tg.com.cn/WANGPU/2019/04/02/1510/u2kzlRKBgCVB0gg6VShSWM3OmWue.jpg?imageView2/0/w/190/h/190",
+				"title": "深圳雨虹防水维修服务",
+				"num": 1,
+				"service": "享优惠"
+			},
+			{
+				"url": "http://imgwangpu.tg.com.cn/WANGPU/2018/09/12/0933/hkjtrHiIjiTUyRglYsjW6xPFcOSQ.jpg?imageView2/0/w/190/h/190",
+				"title": "深圳市宝安区绿健能除甲醛服务中心",
+				"num": 3,
+				"service": "享优惠"
+			},
+			{
+				"url": "http://imgwangpu.tg.com.cn/WANGPU/2019/04/02/1510/u2kzlRKBgCVB0gg6VShSWM3OmWue.jpg?imageView2/0/w/190/h/190",
+				"title": "深圳雨虹防水维修服务",
+				"num": 1,
+				"service": "享优惠"
+			},
+			{
+				"url": "http://imgwangpu.tg.com.cn/WANGPU/2018/09/12/0933/hkjtrHiIjiTUyRglYsjW6xPFcOSQ.jpg?imageView2/0/w/190/h/190",
+				"title": "深圳市宝安区绿健能除甲醛服务中心",
+				"num": 3,
+				"service": "享优惠"
+			},
+			{
+				"url": "http://imgwangpu.tg.com.cn/WANGPU/2019/04/02/1510/u2kzlRKBgCVB0gg6VShSWM3OmWue.jpg?imageView2/0/w/190/h/190",
+				"title": "深圳雨虹防水维修服务",
+				"num": 1,
+				"service": "享优惠"
+			},
+			{
+				"url": "http://imgwangpu.tg.com.cn/WANGPU/2018/09/12/0933/hkjtrHiIjiTUyRglYsjW6xPFcOSQ.jpg?imageView2/0/w/190/h/190",
+				"title": "深圳市宝安区绿健能除甲醛服务中心",
+				"num": 3,
+				"service": "享优惠"
+			},
+			{
+				"url": "http://imgwangpu.tg.com.cn/WANGPU/2019/04/02/1510/u2kzlRKBgCVB0gg6VShSWM3OmWue.jpg?imageView2/0/w/190/h/190",
+				"title": "深圳雨虹防水维修服务",
+				"num": 1,
+				"service": "享优惠"
+			}
+		],
+		"brick": [
+			{
+				"url": "http://imgwangpu.tg.com.cn/WANGPU/2019/06/21/1808/hwUvzUyZFsLPdDdP57kwGMoQ39KX.jpg?imageView2/0/w/190/h/190",
+				"title": "广东蒙娜丽莎瓷砖（龙岗家乐园店）",
+				"num": 3,
+				"service": "享优惠"
+			},
+			{
+				"url": "http://imgwangpu.tg.com.cn/WANGPU/2018/11/28/0925/azkVgjk5heUWGdMSLyPub33oqiFP.jpg?imageView2/0/w/190/h/190",
+				"title": "深圳八卦岭国安居诺贝尔专卖店",
+				"num": 1,
+				"service": "享优惠"
+			},
+			{
+				"url": "http://imgwangpu.tg.com.cn/WANGPU/2019/06/21/1808/hwUvzUyZFsLPdDdP57kwGMoQ39KX.jpg?imageView2/0/w/190/h/190",
+				"title": "广东蒙娜丽莎瓷砖（龙岗家乐园店）",
+				"num": 3,
+				"service": "享优惠"
+			},
+			{
+				"url": "http://imgwangpu.tg.com.cn/WANGPU/2018/11/28/0925/azkVgjk5heUWGdMSLyPub33oqiFP.jpg?imageView2/0/w/190/h/190",
+				"title": "深圳八卦岭国安居诺贝尔专卖店",
+				"num": 1,
+				"service": "享优惠"
+			},
+			{
+				"url": "http://imgwangpu.tg.com.cn/WANGPU/2019/06/21/1808/hwUvzUyZFsLPdDdP57kwGMoQ39KX.jpg?imageView2/0/w/190/h/190",
+				"title": "广东蒙娜丽莎瓷砖（龙岗家乐园店）",
+				"num": 3,
+				"service": "享优惠"
+			},
+			{
+				"url": "http://imgwangpu.tg.com.cn/WANGPU/2018/11/28/0925/azkVgjk5heUWGdMSLyPub33oqiFP.jpg?imageView2/0/w/190/h/190",
+				"title": "深圳八卦岭国安居诺贝尔专卖店",
+				"num": 1,
+				"service": "享优惠"
+			},
+			{
+				"url": "http://imgwangpu.tg.com.cn/WANGPU/2019/06/21/1808/hwUvzUyZFsLPdDdP57kwGMoQ39KX.jpg?imageView2/0/w/190/h/190",
+				"title": "广东蒙娜丽莎瓷砖（龙岗家乐园店）",
+				"num": 3,
+				"service": "享优惠"
+			},
+			{
+				"url": "http://imgwangpu.tg.com.cn/WANGPU/2018/11/28/0925/azkVgjk5heUWGdMSLyPub33oqiFP.jpg?imageView2/0/w/190/h/190",
+				"title": "深圳八卦岭国安居诺贝尔专卖店",
+				"num": 1,
+				"service": "享优惠"
 			}
 		],
 		"finish_inspiration": [

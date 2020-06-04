@@ -1,0 +1,221 @@
+a {
+  text-decoration: none;
+  color: rgba(213, 213, 213);
+}
+/* 导航区域 */
+.ul-nav {
+  padding-top: 0.4rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  background: #fff;
+}
+.ul-nav li {
+  width: 20%;
+  margin-bottom: 0.3rem;
+  position: relative;
+}
+.ul-nav li img {
+  width: 0.95rem;
+}
+.ul-nav li span {
+  font-size: 12px;
+}
+.ul-nav li .smalltitle {
+  position: absolute;
+  right: 0px;
+  top: 2px;
+  background: rgba(255, 94, 94);
+  color: #fff;
+  border-radius: 10px;
+  width: 31px;
+  box-shadow: 2px 2px 2px #fff;
+}
+.ul-nav li:nth-of-type(5) .smalltitle {
+  background: rgba(154, 123, 255);
+}
+/* 大图区域 */
+.nav-img {
+  background: #fff;
+  margin-top: 0.3rem;
+  padding: 0.2rem;
+  position: relative;
+}
+.banner {
+  width: 100%;
+}
+.linghang {
+  position: absolute;
+  top: 0.49rem;
+  left: 0.47rem;
+  color: #fff;
+  font-size: 12px;
+}
+.linghang img {
+  width: 0.3rem;
+  margin-right: 0.1rem;
+}
+.design {
+  position: absolute;
+  top: 0.8rem;
+  left: 0.47rem;
+  color: #fff;
+}
+/* 深圳找装修区域 */
+.search-renovate {
+  padding: 0.1rem;
+  background: #fff;
+  margin-top: 0.3rem;
+}
+.search-renovate .search-renovate-h {
+  display: flex;
+  position: relative;
+}
+.search-renovate .search-renovate-h .more {
+  font-size: 12px;
+  color: rgba(194, 194, 194);
+  text-decoration: none;
+  position: absolute;
+  right: 0.1rem;
+  top: 0.1rem;
+}
+.search-renovate .search-renovate-h .search-renovate-t h3 {
+  color: rgba(245, 142, 20);
+}
+.search-renovate .search-renovate-h .search-renovate-m span {
+  font-size: 12px;
+  color: rgba(194, 194, 194);
+  margin: 0.2rem;
+  display: inline-block;
+  margin-top: 0.1rem;
+}
+.search-renovate .search-renovate-h .search-renovate-m span a {
+  margin-right: 0.1rem;
+}
+.renovatelist {
+  /* width:100%; */
+  display: flex;
+  overflow-x: scroll;
+}
+.renovatelist li {
+  border: 1px solid rgba(236, 236, 236);
+  padding: 0.1rem;
+  margin-right: 0.1rem;
+  text-align: center;
+}
+.renovatelist li img {
+  width: 1.5rem;
+  border: 1px solid rgba(236, 236, 236);
+  border-radius: 50%;
+}
+.renovatelist li .renovate-title {
+  width: 2.2rem;
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.renovatelist li .service {
+  color: rgba(254, 62, 45);
+  border: 1px solid rgba(254, 62, 45);
+  border-radius: 20px;
+  padding: 0.05rem 0.2rem;
+  font-size: 12px;
+  margin: 0.2rem 0;
+  display: inline-block;
+}
+.coupon {
+  text-align: left;
+}
+.coupon p {
+  padding: 0.2rem 0;
+}
+.coupon ul {
+  display: flex;
+}
+.coupon ul li {
+  margin-right: 0.2rem;
+  margin-left: 0.1rem;
+  display: flex;
+}
+.coupon ul li:first-of-type {
+  background: rgba(247, 243, 232);
+  color: rgba(217, 183, 124);
+}
+.coupon ul li:nth-of-type(2) {
+  background: rgba(243, 225, 216);
+}
+.coupon ul .aboutprice {
+  font-size: 30px;
+  font-weight: bold;
+}
+.coupon ul .use {
+  font-size: 12px;
+}
+.coupon ul .coupon-right {
+  width: 20px;
+  font-size: 12px;
+  background: rgba(245, 236, 211);
+  padding: 8px;
+}
+.coupon ul .coupon-bottom {
+  color: rgba(153, 153, 153);
+  font-size: 12px;
+}
+.goodservice p {
+  text-align: left;
+  padding: 0.2rem 0;
+}
+.goodservice ul {
+  display: flex;
+  overflow-x: scroll;
+}
+.goodservice ul li {
+  position: relative;
+  width: 4rem;
+  margin-right: 0.2rem;
+}
+.goodservice ul li img {
+  width: 3.5rem;
+}
+.goodservice ul li h4 {
+  color: rgba(108, 160, 224);
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -33%);
+  width: 2rem;
+}
+.goodservice ul li .service-design {
+  font-size: 12px;
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+}
+.renovate-material {
+  display: flex;
+  flex-wrap: wrap;
+}
+.renovate-material li {
+  width: 1.3rem;
+  border-radius: 0.2rem;
+  font-size: 12px;
+  padding: 0.05rem;
+  background: rgba(245, 245, 245);
+  margin-right: 0.1rem;
+  margin-bottom: 0.2rem;
+}
+.renovate-material .liactive {
+  color: rgba(238, 64, 64);
+  border: 1px solid rgba(248, 182, 176);
+}
+.buymaterial li img {
+  border-radius: 0;
+}
+.buymaterial li .num {
+  font-size: 12px;
+  color: rgba(202, 202, 202);
+}

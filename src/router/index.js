@@ -8,6 +8,7 @@ Vue.use(VueRouter)
   {
     path: '/',
     name: 'Home1',
+    redirect:"/home/recommend",  //重定向
     component: Home
   },
   {

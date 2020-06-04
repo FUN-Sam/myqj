@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <!-- <div id="nav"> -->
       <!-- <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> -->
-    </div>
+    <!-- </div> -->
+      <myheader></myheader>
+
     <router-view />
   </div>
 </template>
 <script>
+import myheader from './components/header.vue'
   import { obj } from "./utils.js"
   export default {
     components: {
-   
+      myheader
     },
     mounted() {
       //挂载完之后去执行这个setrem()

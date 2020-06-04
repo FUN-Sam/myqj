@@ -1,7 +1,7 @@
 <!-- 首页的父组件 -->
 <template>
     <div class="home">
-        <Headers></Headers>
+        <!-- <Headers></Headers> -->
         <nav class="mynavs">
             <div :class="{active:curindex==0}" @click="curindex=0">
                 <router-link to="/home/recommend">推荐</router-link>
@@ -77,30 +77,5 @@
     }
 </script>
 <style lang="less">
-    .mynavs {
-        display: flex;
-        padding-top: 10/100rem;
-        padding-bottom: 10/100rem;
-        overflow-x: scroll;
-        flex-wrap: nowrap;
-        width: 100%;
-        background: #fff;
-
-        div {
-            width: 30%;
-            margin: 10/100rem;
-
-            a {
-                color: rgba(213, 106, 110);
-                text-decoration: none;
-                display: inline-block;
-                width: 37px;
-                color: #000;
-            }
-        }
-    }
-
-    .mynavs .active {
-        border-bottom: 1px solid #b70006;
-    }
+  @import url("../../assets/css/home/home.css");
 </style>
